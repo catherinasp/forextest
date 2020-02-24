@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  src: url('../fonts/HelveticaNeueCyr-Medium.woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue Italic';
+  src: url('../fonts/HelveticaNeueCyr-Italic.woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url('../fonts/HelveticaNeueCyr-Bold.woff');
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.MuiGrid-container {
+  margin: auto !important;
+}
+.MuiButton-containedPrimary {
+  background-color: #03b17b !important;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #fff !important;
+  border: 1px solid #03b17b;
+  color: #03b17b;
+}
+
+.main-area {
+  margin: 30px auto !important;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px #AAAAAA4D;
+  padding: 0px !important;
+  font-family: 'Helvetica Neue Italic';
+}
+.base-currency-area {
+  background: #01B17B 0% 0% no-repeat padding-box;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+}
+.other-currency-area {
+  height: 60vh;
+  overflow: scroll;
+  position:relative
+}
+.other-currency-list {
+  padding: 15px;
+}
+.currency-detail-area {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  padding: 10px;
+}
+.input-area {
+  padding: 20px;
+  background-color: #fff;
+  z-index: 2;
+}
+.abbrv-currency {
+  padding-left: 10px;
+}
+.header {
+  padding: 10px;
+  box-shadow: 0px 5px 15px #00000026;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #ffff;
+}
+.content {
+  padding-top: 100px !important;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1044px;
+  padding: 0;
+}
+.root {
+  flex-grow: 1;
+}
+
+.logo {
+  height: 70px;
+  width: 100px;
+}
+
+/* color */
+.text {
+  font-size: 16px;
+}
+.text.md {
+  font-size: 20px;
+} 
+.text.lg {
+  font-size: 30px;
+} 
+.bold {
+  font-family: "Helvetica Neue Bold";
+}
+.italic {
+  font-style: italic;
+}
+.grey-primary {
+  color: #666666
+}
+.grey-secondary {
+  color: #EEEEEE
+}
+.black-primary {
+  color: #333333
+}
+.white-primary {
+  color: #fff;
+} 
+.green-primary {
+  color: #01B17B;
+} 
+
+/* Flex */
